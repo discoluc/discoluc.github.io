@@ -1,10 +1,11 @@
 # Site settings
 title: Brautmoden Melanie
-email: your-email@domain.com
+email: info@brautmoden-melanie.de
 url: https://discoluc.github.io
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 keywords: "your keywords, separated by commas"
-skills: "Web Developer - Graphic Artist - User Experience Designer"
+skills: "Der Brautsalon mit der persönlichen Note"
+
 meta_author: LastName FirstName
 
 # Google webmaster tools
@@ -26,9 +27,9 @@ disqus_shortname: myshortname
 # Color settings (hex-codes without the leading hash-tag)
 color:
   primary: f0c6ca #80B3FF
-  primary-rgb: "24,288,156" #"128,179,255"
-  secondary: 2c3e50 #FD6E8A
-  secondary-dark: 233140 #A2122F
+  primary-rgb: "240,198,202" #"128,179,255"
+  secondary: d3d3d3 #FD6E8A
+  secondary-dark: 8C8C8C #A2122F
 
 # Footer settings
 footer:
@@ -39,16 +40,10 @@ footer:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
   - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
-  - title: github
-    url: http://github.com/jekyll
+    url: https://www.facebook.com/BrautmodenMelanie/
+  - title: instagram
+    url: https://www.instagram.com/brautmodenmelanie/
 
 # Postal address (add as many lines as necessary)
 address:
