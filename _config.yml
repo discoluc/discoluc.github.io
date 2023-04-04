@@ -28,7 +28,7 @@ disqus_shortname: myshortname
 color:
   primary: f0c6ca #80B3FF
   primary-rgb: "240,198,202" #"128,179,255"
-  secondary: d3d3d3 #FD6E8A
+  secondary: 574143 #FD6E8A
   secondary-dark: 8C8C8C #A2122F
 
 # Footer settings
@@ -47,6 +47,8 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
+  - line: Brautmoden Melanie
+  - line:
   - line: Meraner Str. 43
   - line: 86165 Augsburg-Lechhausen
 
