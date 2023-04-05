@@ -1,0 +1,8 @@
+---
+layout: default
+modal-id: 2
+overlaytxt: Service
+img: service.png
+alt: Service
+description: <p>Profitieren Sie von unserem rundum Sorglos-Paket.</p> <p>Wir passen Ihr Kleid in unserer Schneiderei perfekt auf Sie an und machen auf Wunsch auch Sonderanfertigungen.</p>
+---

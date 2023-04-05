@@ -1,0 +1,8 @@
+---
+layout: default
+modal-id: 1
+overlaytxt: Auswahl
+img: auswahl.png
+img-alt: Auswahl
+description: Ob klassisch oder modern, extravagant oder verspielt. Brautmoden Melanie bietet Ihnen eine breite Auswahl namhafter Hersteller für Ihren ganz individuellen Stil. Bei einer Auswahl von über 300 Modellen aus allen Stilrichtungen und in Kleidergrößen von 34 bis 60 werden Sie sicherlich Ihr Traumkleid finden.
+---

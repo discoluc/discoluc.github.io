@@ -18,7 +18,7 @@ bing_verify:
 # - static : pass through formspree.io to validate email sending
 # - disqus : replace contact form by disqus thread
 # - comment the line below if you want to stick with the default PHP contact form
-contact: static
+#contact: static
 
 # If you use disqus you need disqus shortname
 # https://help.disqus.com/customer/portal/articles/466208
@@ -26,17 +26,18 @@ disqus_shortname: myshortname
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary:  BA8193 #80B3FF
+  primary:  BA8193 #FFF4FB 
   primary-rgb: "240,198,202" #"128,179,255"
-  secondary: 6D0F3C #FD6E8A
+  secondary:  610C36 #610C36 #6D0F3C 
   secondary-dark: 000000 #A2122F
 
 # Footer settings
 footer:
   copyright: Brautmoden Melanie
   location: Adresse
-  social: Hier findet man uns auch
-  credits: Impressum
+  social: Soziale Netzwerke 
+  impressum: Impressum
+  dataprivacy: Datenschutzerklärung
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
@@ -48,16 +49,15 @@ social:
 # Postal address (add as many lines as necessary)
 address:
   - line: Brautmoden Melanie
-  - line:
   - line: Meraner Str. 43
   - line: 86165 Augsburg-Lechhausen
 
-# Credits content
-credits: 'Datenschuttz + Impressum</a>.'
+
+
 
 # Build settings
 markdown: kramdown
-permalink: pretty
+permalink: none
 
 #for posts
 defaults:

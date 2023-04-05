@@ -23,6 +23,7 @@ p.small {
   transform: translate(-50%, -50%);
   font-size: 1.75em;
   color: #fff;
+  padding: 0 0.2em;
   background-color: #{{ site.color.secondary }};
 }
 
@@ -33,6 +34,14 @@ a:active,
 a.active {
     outline: 0;
     color: #{{ site.color.primary }};
+}
+a[href^="http://"]:not([href*="brautmoden-melanie.de"]):after,
+a[href^="https://"]:not([href*="brautmoden-melanie.de"]):after {
+    content: "\f08e";
+    vertical-align:auto;
+    padding: 0 .1em;
+    font-family: FontAwesome;
+    font-size: 0.75em;
 }
 
 h1,
@@ -45,6 +54,14 @@ h6 {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
+
+.table {
+margin-left: auto;
+margin-right: auto;
+padding: 7px;
+}
+
+
 
 hr.star-light,
 hr.star-primary {
@@ -192,6 +209,11 @@ section h2 {
 }
 
 section.success {
+    color: #fff;
+    background: #{{ site.color.primary }};
+}
+
+section.impressum {
     color: #fff;
     background: #{{ site.color.primary }};
 }
@@ -383,7 +405,7 @@ footer .footer-col {
 
 footer .footer-below {
     padding: 25px 0;
-    background-color: #{{ site.color.secondary-dark }};
+    background-color: #{{ site.color.primary }};
 }
 
 .btn-social {
