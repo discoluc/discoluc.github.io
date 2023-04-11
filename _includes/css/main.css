@@ -16,17 +16,17 @@ p.small {
     font-size: 16px;
 }
 
-.imgtext {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 1.75em;
-  color: #fff;
-  padding: 0 0.2em;
-  background-color: #{{ site.color.secondary }};
+
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+    outline: 0;
+    color: #{{ site.color.secondary }};
 }
 
+footer 
 a,
 a:hover,
 a:focus,
@@ -35,13 +35,16 @@ a.active {
     outline: 0;
     color: #{{ site.color.primary }};
 }
-a[href^="http://"]:not([href*="brautmoden-melanie.de"]):after,
-a[href^="https://"]:not([href*="brautmoden-melanie.de"]):after {
+
+
+
+a[href^="http://"]:not([href*="brautmoden-melanie.de"],[href*="instagram.com"],[href*="facebook.com"]):after,
+a[href^="https://"]:not([href*="brautmoden-melanie.de"],[href*="instagram.com"],[href*="facebook.com"]):after {
     content: "\f08e";
     vertical-align:auto;
     padding: 0 .1em;
     font-family: FontAwesome;
-    font-size: 0.75em;
+    font-size: 0.5em;
 }
 
 h1,
@@ -60,8 +63,125 @@ margin-left: auto;
 margin-right: auto;
 padding: 7px;
 }
+hr.envelope-light,
+hr.envelope-primary {
+    margin: 25px auto 30px;
+    padding: 0;
+    max-width: 250px;
+    border: 0;
+    border-top: solid 5px;
+    text-align: center;
+    overflow: visible;
+}
 
+hr.envelope-light:after,
+hr.envelope-primary:after {
+    content: "\f0e0";
+    display: inline-block;
+    position: relative;
+    top: -.8em;
+    padding: 0 .25em;
+    font-family: FontAwesome;
+    font-size: 2em;
+}
 
+hr.envelope-light {
+    border-color: #fff;
+}
+
+hr.envelope-light:after {
+    color: #fff;
+    background-color: #{{ site.color.primary }};
+}
+
+hr.envelope-primary {
+    border-color: #{{ site.color.secondary }};
+}
+
+hr.envelope-primary:after {
+    color: #{{ site.color.secondary }};
+    background-color: #fff;
+}
+
+hr.people-light,
+hr.people-primary {
+    margin: 25px auto 30px;
+    padding: 0;
+    max-width: 250px;
+    border: 0;
+    border-top: solid 5px;
+    text-align: center;
+    overflow: visible;
+}
+
+hr.people-light:after,
+hr.people-primary:after {
+    content: "\e533";
+    display: inline-block;
+    position: relative;
+    top: -.8em;
+    padding: 0 .25em;
+    font-family: FontAwesome;
+    font-size: 2em;
+}
+
+hr.people-light {
+    border-color: #fff;
+}
+
+hr.people-light:after {
+    color: #fff;
+    background-color: #{{ site.color.primary }};
+}
+
+hr.people-primary {
+    border-color: #{{ site.color.secondary }};
+}
+
+hr.people-primary:after {
+    color: #{{ site.color.secondary }};
+    background-color: #fff;
+}
+
+hr.portfolio-light,
+hr.portfolio-primary {
+    margin: 25px auto 30px;
+    padding: 0;
+    max-width: 250px;
+    border: 0;
+    border-top: solid 5px;
+    text-align: center;
+    overflow: visible;
+}
+
+hr.portfolio-light:after,
+hr.portfolio-primary:after {
+    content: "\f0f2";
+    display: inline-block;
+    position: relative;
+    top: -.8em;
+    padding: 0 .25em;
+    font-family: FontAwesome;
+    font-size: 2em;
+}
+
+hr.portfolio-light {
+    border-color: #fff;
+}
+
+hr.portfolio-light:after {
+    color: #fff;
+    background-color: #{{ site.color.primary }};
+}
+
+hr.portfolio-primary {
+    border-color: #{{ site.color.secondary }};
+}
+
+hr.portfolio-primary:after {
+    color: #{{ site.color.secondary }};
+    background-color: #fff;
+}
 
 hr.star-light,
 hr.star-primary {
@@ -227,6 +347,18 @@ section.impressum {
         padding-top: 75px;
     }
 }
+#portfolio .imgtext {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.75em;
+  color: #fff;
+  padding: 0 0.2em;
+  background-color: #{{ site.color.secondary }};
+}
+
+
 
 #portfolio .portfolio-item {
     right: 0;
@@ -254,6 +386,8 @@ section.impressum {
 #portfolio .portfolio-item .portfolio-link .caption:hover {
     opacity: 1;
 }
+
+
 
 #portfolio .portfolio-item .portfolio-link .caption .caption-content {
     position: absolute;
@@ -391,21 +525,29 @@ footer {
 }
 
 footer h3 {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+}
+
+footer h4 {
+    margin-bottom: 20px;
 }
 
 footer .footer-above {
-    padding-top: 50px;
+    padding-top: 15px;
     background-color: #{{ site.color.secondary }};
 }
 
 footer .footer-col {
-    margin-bottom: 50px;
+    margin-bottom: 10px;
+    
 }
 
+
+
 footer .footer-below {
-    padding: 25px 0;
-    background-color: #{{ site.color.primary }};
+    font-size: 0.85em;
+    padding: 0 0 50 0 px;
+    background-color: #{{ site.color.secondary }};
 }
 
 .btn-social {
@@ -507,6 +649,10 @@ footer .footer-below {
 
 .navbar-nav>.active>a {
     background-color: #{{ site.color.secondary-dark }} !important;
+}
+.list-inline>li {
+    margin-top: -15px;
+    margin-bottom: 35px;
 }
 
 /* Fix modal mouse wheel issues */

@@ -1,0 +1,8 @@
+---
+layout: default
+modal-id: 3
+img: beratung.png
+overlaytxt: Beratung
+alt: image-alt
+description: <p>Es ist ratsam frühzeitig einen Termin zu vereinbaren um eventuell die passende Größe bestellen zu können. Die Lieferzeiten betragen bis zu 6 Monate.</p><p>Eine Beratung ist bei uns immer kostenfrei und wir nehmen uns bis zu 2 Stunden ausschließlich für Sie Zeit. Auch der Ankleidebereich steht Ihnen für die Zeit exklusiv zur Verfügung. Kommen Sie mit bis zu 4 Begleitpersonen und probieren Sie die Kleider in entspannter Atmosphäre.</p><p>Wir freuen uns auf Euch und werden Sie bei der Beratung zu Ihrem Brautkleid bestmöglich unterstützen.</p><p>Sie wollen nur einen Blick auf unser Sortiment werfen, dann können Sie jeden Donnerstag zwischen 11 und 19 Uhr bei uns stöbern. </p>
+---

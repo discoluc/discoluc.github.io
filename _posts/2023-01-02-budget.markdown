@@ -1,0 +1,7 @@
+---
+layout: default
+modal-id: 5
+overlaytxt: Budget
+img: budget.png
+description: <p>Bei uns können Sie faire Preise erwarten. Wir halten Ihr Budget im Auge und können auch schon die zusätzlich anfallenden Änderungskosten für Sie berechnen.</p><p>Auch haben wir Second-Hand Kleider, Outlet-Kleider und günstige Hersteller in unserem Sortiment.</p><p>Sie haben Interesse an einer Maßanfertigung? Auch hier bekommen Sie vorab eine Kalkulation.</p>
+---

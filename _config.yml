@@ -3,7 +3,7 @@ title: Brautmoden Melanie
 email: info@brautmoden-melanie.de
 url: https://discoluc.github.io
 description: "Brautmoden Melanie. Der Brautmodenladen der besonderen Art. Bei uns bekommen Sie alles aus einer Hand."
-keywords: "braut,brautkleid,brautmoden,mode,augsburg,stil"
+keywords: "braut,brautkleid,brautmoden,mode,augsburg,stil, bridal, wear, accessoires, hersteller, hochwertig,service,schneiderei"
 skills: "Der Brautsalon mit der persönlichen Note"
 
 meta_author: LastName FirstName
@@ -35,9 +35,10 @@ color:
 footer:
   copyright: Brautmoden Melanie
   location: Adresse
-  social: Soziale Netzwerke 
+  social: Folge uns auf
   impressum: Impressum
   dataprivacy: Datenschutzerklärung
+  hours: Öffnungszeiten
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
@@ -51,6 +52,9 @@ address:
   - line: Brautmoden Melanie
   - line: Meraner Str. 43
   - line: 86165 Augsburg-Lechhausen
+  - line:
+  - line: Tel. 0821  24 41 44 92
+  - line: <a href="mailto:info@brautmoden-melanie.de">info@brautmoden-melanie.de</a>
 
 
 

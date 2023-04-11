@@ -4,15 +4,16 @@
     <div class="container">
       <div class="row">
         <div class="footer-col col-md-4">
-          <h3>{{ site.footer.location }}</h3>
-          <p>
+          <h4>{{ site.footer.location }}</h4>
+          <p class="small">
             {% for adress in site.address %}
             {{ adress.line }} <br>
             {% endfor %}
           </p>
+
         </div>
         <div class="footer-col col-md-4">
-          <h3>{{ site.footer.social }}</h3>
+          <h4>{{ site.footer.social }}</h4>
           <ul class="list-inline">
             {% for network in site.social %}
             <li>
@@ -21,10 +22,28 @@
             </li>
             {% endfor %}
           </ul>
+                    <h6><a href="impressum.html">{{ site.footer.impressum }}</a></h6>
+                    <h6><a href="datenschutz.html">{{ site.footer.dataprivacy }}</a></h6>
         </div>
-        <div class="footer-col col-md-4">
-          <h3><a href="impressum.html">{{ site.footer.impressum }}</a></h3>
-          <h3><a href="datenschutz.html">{{ site.footer.dataprivacy }}</a></h3>
+        <div class="footer-col col-lg-4">
+          <h4>{{ site.footer.hours }}</h4><p class="small">
+          <table style="table-layout: fixed ;
+  width: 100%; border-collapse: collapse;border-spacing: 2px;">
+            <thead></thead>
+            <tbody>
+              <tr>
+                <td style="width: 25%;text-align: left">Di, Mi, Fr, Sa</td>
+                <td style="width: 75%;text-align: left">11:00-19:00 Uhr, nur mit <a href="https://termin-online-buchen.de/live/booking?cfid=000118000124"
+                    target="_blank" rel="noopener noreferrer">Termin</a></td>
+              </tr>
+              <tr>
+                <td style="width: 25%;text-align: left">Do</td>
+                <td style="width: 75%;text-align: left">11:00-19:00 stöbern, ohne Termin</td>
+              </tr>
+            </tbody>
+          </table>
+          </p>
+
         </div>
       </div>
     </div>
