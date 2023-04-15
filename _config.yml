@@ -1,12 +1,12 @@
 # Site settings
 title: Brautmoden Melanie
 email: info@brautmoden-melanie.de
-url: https://discoluc.github.io
-description: "Brautmoden Melanie. Der Brautmodenladen der besonderen Art. Bei uns bekommen Sie alles aus einer Hand."
-keywords: "braut,brautkleid,brautmoden,mode,augsburg,stil, bridal, wear, accessoires, hersteller, hochwertig,service,schneiderei"
+url: https://www.brautmoden-melanie.de
+description: "Brautmoden Melanie. Der Brautmodenladen der besonderen Art. Bei uns bekommen Sie alles aus einer Hand. Haben Sie ihr Traumkleid gefunden, ändern unsere SchneiderInnen ihr Brautkleid passgenau ab."
+keywords: "braut,brautkleid,brautmoden,mode,augsburg,stil, bridal, wear, accessoires, hersteller, hochwertig,service,schneiderei, lechhausen, augsburg-lechhausen, münchen, edel, luxus"
 skills: "Der Brautsalon mit der persönlichen Note"
 
-meta_author: LastName FirstName
+meta_author: Michaela Bruhn
 
 # Google webmaster tools
 google_verify:
@@ -26,16 +26,16 @@ disqus_shortname: myshortname
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary:  BA8193 #FFF4FB 
+  primary: BA8193 #FFF4FB
   primary-rgb: "240,198,202" #"128,179,255"
-  secondary:  610C36 #610C36 #6D0F3C 
+  secondary: 610C36 #610C36 #6D0F3C
   secondary-dark: 000000 #A2122F
 
 # Footer settings
 footer:
   copyright: Brautmoden Melanie
   location: Adresse
-  social: Folge uns auf
+  social: Folgen Sie uns auf
   impressum: Impressum
   dataprivacy: Datenschutzerklärung
   hours: Öffnungszeiten
@@ -55,9 +55,6 @@ address:
   - line:
   - line: Tel. 0821  24 41 44 92
   - line: <a href="mailto:info@brautmoden-melanie.de">info@brautmoden-melanie.de</a>
-
-
-
 
 # Build settings
 markdown: kramdown

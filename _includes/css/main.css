@@ -4,6 +4,9 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+ .nobr { white-space: nowrap }
+
+ 
 body {
     overflow-x: hidden;
 }
@@ -321,6 +324,7 @@ header .intro-text .skills {
 
 section {
     padding: 100px 0;
+    
 }
 
 section h2 {
@@ -331,6 +335,7 @@ section h2 {
 section.success {
     color: #fff;
     background: #{{ site.color.primary }};
+    
 }
 
 section.impressum {
